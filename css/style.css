@@ -4,6 +4,7 @@
 body{
     font-family: sans-serif;
     margin: 0px;
+    background-color: rgb(100, 100, 100);
 }
 .navbar {
     background-color: #000;
@@ -58,9 +59,53 @@ body{
     display: block;
 }
 
-header{
+header, #intro > p, h2 {
     text-align: center;
 }
-.intro {
-    margin: 2vw;
+
+footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 1vw;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+#intro {
+    margin: 0 0 32px 0;
+}
+
+img {
+    width: 40vw;
+    border-radius: 16px;
+}
+
+.content {
+    font-size: 24px;
+    background-color: #d9d9d9;
+    border-radius: 32px;
+    padding: 2vw 4vw;
+    margin: 4vw 8vw;
+}
+
+.section {
+    background-color: #b2b2b2;
+    border-radius: 16px;
+    padding: 2vw;
+    margin: 24px 0vw;
+}
+
+.section > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footnote {
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
 }

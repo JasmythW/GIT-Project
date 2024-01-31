@@ -16,83 +16,121 @@
             <div class="dropContent">
                 <a href="#setup">Set Up</a>
                 <a href="#creating">Creating a Repository</a>
-                <a href="operations.html">Basic GIT Operations</a>
-                <a href="branching.html">Branching</a>
-                <a href="remote.html">Remote Repositories</a>
-                <a href="pull.html">Pull Requests</a>
+                <a href="#operations">Basic GIT Operations</a>
+                <a href="#branching">Branching</a>
+                <a href="#remote">Remote Repositories</a>
+                <a href="#pull">Pull Requests</a>
             </div>
         </div>
     </div>
-    <header>
-        <h1>GIT Fundamentals</h1>
-    </header>
-    <section class="intro">
-        <p>
-            In the ever-evolving world of web development, proficiency in version control is not just a skill—it's an
-            essential tool of the
-            trade. This project will not only deepen your understanding of Git but also challenge you to document your
-            learning journey.
-            You will create a micro-site, using HTML, CSS, and JavaScript (optionally), to showcase what you've learned
-            about Git. This site
-            itself will be a practical example of your skills, as you manage its development as a project on GitHub. From
-            your initial research
-            to the final deployment on GitHub Pages, every aspect of this project will reflect your mastery of Git in a
-            real-world application.
-            Embrace this opportunity to illustrate your journey, skills, and creativity, setting you on the path to becoming
-            a proficient and
-            versatile web developer.
-        </p>
-    </section>
-    <section class="setup">
-        <h2>Setting Up the Environment</h2>
-        <h3>Installing Git and VS Code</h3>
-        <h4>Installing Git</h4>
-        <p>Install Git from the following link: <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
-        <p>Follow the instructions provided in the Git Setup Wizard</p>
-        <h4>Installing VS Code</h4>
-        <p>Install VS Code from the following link: <a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a></p>
-        <p>Once the download is complete, run the installer VSCodeUserSetup.exe</p>
-        <h3>Configure Git within VS Code</h3>
-        <p>After completing the steps above, create a GitHub account at <a href="github.com">github.com</a></p>
-        <p>Select the GitHub Login otpion in the VS Code sidebar</p>
-        <p>Follow the steps to log into your account</p>
-    </section>
-    <section class="creating">
-        <h2>Creating and Cloning a GitHub Repository</h2>
-        <h3>Create a New Repository in GitHub</h3>
-        <p>In GitHub, click "New Repository"</p>
-        <p>Name the repository</p>
-        <p>Click "Create Repository"</p>
-        <h3>Clone the Repository using VS Code's Integrated Git Support</h3>
-        <p>Open the Source Control paneil in the VS Code sidebar (ctrl+shift+g)</p>
-        <p>Select "Clone Repository"</p>
-        <p>Select the GitHub repository you want to work in</p>
-    </section>
-    <section id="operations">
-        <h2>Basic Git Operations in VS Code</h2>
-        <h3>Perform basic Git Operations through the VS Code GUI</h3>
-        <h4>Add, Commit, Push:</h4>
-        <p>Open the Source Control paneil in the VS Code sidebar (ctrl+shift+g)</p>
-        <p>Click the Plus/Add icon next to the changes you want to commit</p>
-        <p>Click the Commit icon</p>
-        <p>Write your commit message in the text box or the file that opens</p>
-        <p>Select the Push option from the Source Control menu</p>
-        <h4>Pull:</h4>
-        <p>Open the Source Control paneil in the VS Code sidebar (ctrl+shift+g)</p>
-        <p>Select the Pull option from the Source Control Menu</p>
-    </section>
-    <section id="branching">
-        <h2>Branching with VS Code</h2>
-        <p>Branching is important because it allows multiple instances of a project to occur at once without impacting the main file. You can make changes or test releases in a branch of your main file so that it will not impact your code.</p>
-        <p>Open the Source Control paneil in the VS Code sidebar (ctrl+shift+g)</p>
-        <p>Open the Branches option and create a new branch</p>
-        <p>You can switch between branches in the bottom bar by clicking on the branch icon</p>
-    </section>
-    <section class="remote">
-
-    </section>
-    <section class="pull">
-
+    <section class="content">
+        <header>
+            <h1>GIT Fundamentals</h1>
+        </header>
+        <section id="intro">
+            <p>
+                In the ever-evolving world of web development, proficiency in version control is not just a skill—it's
+                an
+                essential tool of the
+                trade. This project will not only deepen your understanding of Git but also challenge you to document
+                your
+                learning journey.
+                You will create a micro-site, using HTML, CSS, and JavaScript (optionally), to showcase what you've
+                learned
+                about Git. This site
+                itself will be a practical example of your skills, as you manage its development as a project on GitHub.
+                From
+                your initial research
+                to the final deployment on GitHub Pages, every aspect of this project will reflect your mastery of Git
+                in a
+                real-world application.
+                Embrace this opportunity to illustrate your journey, skills, and creativity, setting you on the path to
+                becoming
+                a proficient and
+                versatile web developer.
+            </p>
+        </section>
+        <section id="setup" class="section">
+            <h2>Setting Up the Environment</h2>
+            <h3>Installing Git and VS Code</h3>
+            <h4>Installing Git</h4>
+            <img src="imgs/git-download.PNG" alt="">
+            <p>Install Git from the following link: <a
+                    href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
+            <p>Follow the instructions provided in the Git Setup Wizard</p>
+            <h4>Installing VS Code</h4>
+            <img src="imgs/vs-download.PNG" alt="">
+            <p>Install VS Code from the following link: <a
+                    href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a></p>
+            <p>Once the download is complete, run the installer VSCodeUserSetup.exe</p>
+            <h3>Configure Git within VS Code</h3>
+            <p>After completing the steps above, create a GitHub account at <a href="github.com">github.com</a></p>
+            <p>Select the GitHub Login otpion in the VS Code sidebar</p>
+            <p>Follow the steps to log into your account</p>
+        </section>
+        <section id="creating" class="section">
+            <h2>Creating and Cloning a GitHub Repository</h2>
+            <h3>Create a New Repository in GitHub</h3>
+            <img src="imgs/new-rep.PNG" alt="">
+            <p>In GitHub, click "New Repository"</p>
+            <img src="imgs/rep-name.PNG" alt="">
+            <p>Name the repository</p>
+            <img src="imgs/create rep.PNG" alt="">
+            <p>Click "Create Repository"</p>
+            <h3>Clone the Repository using VS Code's Integrated Git Support</h3>
+            <p>Open the Source Control panel in the VS Code sidebar (ctrl+shift+g)</p>
+            <img src="imgs/clone-rep.PNG" alt="">
+            <p>Select "Clone Repository"</p>
+            <img src="imgs/git-rep.PNG" alt="">
+            <p>Select the GitHub repository you want to work in</p>
+        </section>
+        <section id="operations" class="section">
+            <h2>Basic Git Operations in VS Code</h2>
+            <h3>Perform basic Git Operations through the VS Code GUI</h3>
+            <h4>Add, Commit, Push:</h4>
+            <p>Open the Source Control panel in the VS Code sidebar (ctrl+shift+g)</p>
+            <img src="imgs/add.webp" alt="">
+            <p>Click the Plus/Add icon next to the changes you want to commit</p>
+            <img src="imgs/commit.webp" alt="">
+            <p>Click the Commit icon</p>
+            <p>Write your commit message in the text box or the file that opens</p>
+            <img src="imgs/push.webp" alt="">
+            <p>Select the Push option from the Source Control menu</p>
+            <h4>Pull:</h4>
+            <p>Open the Source Control panel in the VS Code sidebar (ctrl+shift+g)</p>
+            <p>Select the Pull option from the Source Control Menu</p>
+            <p id="footnote">Images from the following source: <a href="https://nikki-ricks.medium.com/how-to-use-git-add-commit-and-push-in-vs-code-and-command-line-35c0e8c47b62">"How to use git add, commit and push in VS Code and Command-line"</a></p>
+        </section>
+        <section id="branching" class="section">
+            <h2>Branching with VS Code</h2>
+            <p>Branching is important because it allows multiple instances of a project to occur at once without
+                impacting the main file. You can make changes or test releases in a branch of your main file so that it
+                will not impact your code.</p>
+            <p>Open the Source Control panel in the VS Code sidebar (ctrl+shift+g)</p>
+            <img src="imgs/branching.PNG" alt="">
+            <p>Open the Branches option and create a new branch</p>
+            <img src="imgs/switch-branch.PNG" alt="">
+            <p>You can switch between branches in the bottom bar by clicking on the branch icon</p>
+        </section>
+        <section id="remote" class="section">
+            <h2>Working with Remote Repositories</h2>
+            <h3>Add and manage remote repositories directly from VS Code.</h3>
+            <p>In order to work in a remote repository, you first need to install the <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub&WT.mc_id=devcloud-18509-cxa">Remote Repositories extention</a></p>
+            <img src="imgs/remote-window.png" alt="">
+            <p>Click the Remote Window indicator in the bottom left corner of VS Code</p>
+            <img src="imgs/open-remote.png" alt="">
+            <p>Select "Open Remote Repository"</p>
+            <h3>Push to and pull from these remotes using the VS Code interface.</h3>
+            <p id="footnote">Images from the following source: <a href="https://www.freecodecamp.org/news/you-can-now-edit-anything-on-github-in-vs-code-without-cloning/">"How to Open Any Repo in VS Code Without Cloning It"</a></p>
+        </section>
+        <section id="pull" class="section">
+            <h2>Pull Requests and Code Review within VS Code</h2>
+            <p>Open the Source Control panel in the VS Code sidebar (ctrl+shift+g)</p>
+            <img src="imgs/pull.PNG" alt="">
+            <p>Open the Pull menu option</p>
+            <img src="imgs/pull-message.png" alt="">
+            <p>Enter a pull message</p>
+        </section>
     </section>
     <footer>
         <p>This is a class project.</p>
